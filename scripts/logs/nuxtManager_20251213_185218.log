@@ -1,0 +1,30 @@
+**********************
+PowerShell transcript start
+Start time: 20251213185218
+Username: WINDOWS-AN9D8HS\steve
+RunAs User: WINDOWS-AN9D8HS\steve
+Configuration Name: 
+Machine: WINDOWS-AN9D8HS (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -File D:\my_projects\web-apps\uuidv7-generator\scripts\powershell\nuxtManager.ps1
+Process ID: 32664
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Logging enabled: D:\my_projects\web-apps\uuidv7-generator\scripts\logs\nuxtManager_20251213_185218.log
+[18:52:18] [INFO] Action: Clean (Remove artifacts)
+[18:52:18] [INFO] Starting Full Cleanup...
+[18:52:18] [DEBUG] Scanning for artifacts...
+[18:52:18] [DEBUG] Removing: D:\my_projects\web-apps\uuidv7-generator\node_modules
+[18:52:20] [DEBUG] Removing: D:\my_projects\web-apps\uuidv7-generator\pnpm-lock.yaml
+[18:52:20] [SUCCESS] Removed 2 artifacts.
+**********************
+PowerShell transcript end
+End time: 20251213185220
+**********************

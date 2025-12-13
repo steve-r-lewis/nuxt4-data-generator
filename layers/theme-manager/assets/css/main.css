@@ -1,0 +1,64 @@
+/**
+ * ================================================================================
+ *
+ * @project:    uuidv7-generator
+ * @file:       ~/layers/theme-manager/assets/css/main.css
+ * @version:    1.0.0
+ * @createDate: 2025 Dec 13
+ * @createTime: 18:21
+ * @author:     Steve R Lewis
+ *
+ * ================================================================================
+ *
+ * @description:
+ * This file serves as the central CSS entry point for the theme manager layer,
+ * orchestrating the integration between Tailwind CSS v4 and the application's
+ * dynamic theming system. It establishes the complete styling pipeline by:
+ *
+ * 1. Defining content sources for Tailwind's class detection
+ * 2. Loading Tailwind's foundational styles and utilities
+ * 3. Injecting custom design tokens via the theme configuration
+ * 4. Establishing the CSS variable cascade from raw colors to semantic tokens
+ * 5. Providing theme-aware custom utilities and component styles
+ *
+ * The file creates a robust theming foundation where all UI components
+ * automatically adapt to theme changes through semantic CSS variables, ensuring
+ * consistent, maintainable, and dynamic styling across the entire application.
+ *
+ * ================================================================================
+ *
+ * @notes: Revision History
+ *
+ * V1.0.0, 20251213-18:21
+ * Initial creation and release of main.css
+ *
+ * ================================================================================
+ */
+
+/**
+ * Define content sources using paths relative to the MONOREPO ROOT
+ */
+@source "../../../../app/**/*.{vue,js,ts,jsx,tsx}";
+@source "../../../ui-library/**/*.{vue,js,ts,jsx,tsx}";
+
+/**
+ * This includes base element resets, component classes, and all default utilities.
+ */
+@import 'tailwindcss';
+
+/**
+ * This file contains classes like `.card` and `.btn-primary` that are built
+ * using the `ui-*` tokens, making them theme-aware.
+ */
+@import './components/components.css';
+
+/**
+ * Reusable utility for hiding scrollbars across browsers
+ */
+@utility scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+}

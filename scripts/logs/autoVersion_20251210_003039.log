@@ -1,0 +1,27 @@
+**********************
+PowerShell transcript start
+Start time: 20251210003039
+Username: WINDOWS-AN9D8HS\steve
+RunAs User: WINDOWS-AN9D8HS\steve
+Configuration Name: 
+Machine: WINDOWS-AN9D8HS (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -File D:\my_projects\web-apps\nuxt4-monorepo-base-app\scripts\powershell\updateFileVersion.ps1
+Process ID: 15784
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Logging enabled: D:\my_projects\web-apps\nuxt4-monorepo-base-app\scripts\logs\autoVersion_20251210_003039.log
+[00:30:39] [DEBUG] LLM Provider set from Environment: ollama
+[00:30:39] [INFO] Scanning for modified files...
+[00:30:39] [WARN] No modified TypeScript or Vue files found.
+**********************
+PowerShell transcript end
+End time: 20251210003039
+**********************

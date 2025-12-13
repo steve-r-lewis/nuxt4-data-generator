@@ -1,0 +1,55 @@
+/**
+ * ================================================================================
+ *
+ * @project:    @monorepo/theme-manager
+ * @file:       ~/layers/theme-manager/assets/css/components/buttons.css
+ * @version:    1.0.0
+ * @createDate: 2025 Nov 10
+ * @createTime: 19:51
+ * @author:     Steve R Lewis
+ *
+ * ================================================================================
+ *
+ * @description:
+ * TODO: Create description here
+ *
+ * ================================================================================
+ *
+ * @notes: Revision History
+ *
+ * V1.0.0, 20251110-19:51
+ * Initial creation and release of buttons.css
+ *
+ * ================================================================================
+ */
+
+@layer components {
+  /**
+   * ============================================================================
+   * Button Components
+   * ============================================================================
+   */
+
+  /* .btn is the BASE class for all buttons */
+  .btn {
+    @apply rounded-lg py-3 px-5 transition duration-150 ease-in-out;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  /* .btn-primary is the MODIFIER class */
+  .btn-primary {
+    /* These are ONLY the primary-specific styles. */
+    @apply bg-white text-black;
+    @apply border border-yello-600;
+    @apply shadow-lg shadow-blue-500/50;
+
+    /* States */
+    @apply hover:bg-slate-500 hover:border-red-400;
+    @apply hover:bg-amber-400 hover:border-red-600;
+    @apply active:bg-white active:border-red;
+    @apply disabled:bg-grey-200 disabled:text-white;
+
+    /* Focus Ring */
+    @apply focus:ring-grey-300;
+  }
+}

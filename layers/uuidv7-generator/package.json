@@ -1,0 +1,14 @@
+{
+    "name": "@monorepo/uuidv7-generator",
+    "version": "1.0.0",
+    "description": "UUID-V7 Generator for Nuxt Monorepo",
+    "private": true,
+    "type": "module",
+    "main": "nuxt.config.ts",
+    "exports": {
+        ".": {
+            "types": "./tsconfig.json",
+            "import": "./nuxt.config.ts.old"
+        }
+    }
+}

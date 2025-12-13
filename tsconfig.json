@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "paths": {
+      "#imports": [
+        ".nuxt/imports.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "**/*.css",
+    "**/*.ts",
+    "**/*.vue",
+    "index.ts",
+    ".nuxt/nuxt.d.ts",
+    ".nuxt/tsconfig.json",
+    "app/assets",
+    "app/composables",
+    "app/layouts",
+    "app/middleware",
+    "app/pages",
+    "app/plugins",
+    "app/types",
+    "app/utils",
+    "content",
+    "layers/*",
+    "layers/ui/components",
+    "server",
+    "shared"
+  ]
+}

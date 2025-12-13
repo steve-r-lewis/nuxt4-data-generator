@@ -1,0 +1,34 @@
+/**
+ * ================================================================================
+ *
+ * @project:    @monorepo/theme-manager
+ * @file:       ~/layers/theme-manager/assets/css/components/generalStyles.css
+ * @version:    1.0.0
+ * @createDate: 2025 Nov 10
+ * @createTime: 19:51
+ * @author:     Steve R Lewis
+ *
+ * ================================================================================
+ *
+ * @description:
+ * TODO: Create description here
+ *
+ * ================================================================================
+ *
+ * @notes: Revision History
+ *
+ * V1.0.0, 20251110-19:51
+ * Initial creation and release of generalStyles.css
+ *
+ * ================================================================================
+ */
+
+@theme inline {
+  /**
+   * ============================================================================
+   * generalStyles Components
+   * ============================================================================
+   */
+  --color-bg: theme(colors.slate.950);
+  --color-fg: theme(colors.slate.100);
+}

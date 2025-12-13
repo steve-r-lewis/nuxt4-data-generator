@@ -1,0 +1,43 @@
+**********************
+PowerShell transcript start
+Start time: 20251213180612
+Username: WINDOWS-AN9D8HS\steve
+RunAs User: WINDOWS-AN9D8HS\steve
+Configuration Name: 
+Machine: WINDOWS-AN9D8HS (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -File D:\my_projects\web-apps\uuidv7-generator\scripts\powershell\nuxtCreateLayer.ps1
+Process ID: 26120
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Logging enabled: D:\my_projects\web-apps\uuidv7-generator\scripts\logs\createLayer_20251213_180612.log
+[18:06:12] [DEBUG] LLM Provider set from Environment: ollama
+@monorepo Layer Provisioner
+===========================
+[18:09:25] [INFO] Contacting AI for layer descriptions...
+[18:09:25] [DEBUG] Invoking Ollama (llama3:8b) at http://localhost:11434/api/generate...
+[18:09:34] [INFO] Scaffolding layer 'uuidv7-generator'...
+True
+[18:09:34] [INFO] Created: package.json
+True
+[18:09:34] [INFO] Created: tsconfig.json
+True
+[18:09:34] [INFO] Created: .gitignore
+True
+[18:09:34] [INFO] Created: LICENSE
+True
+[18:09:34] [INFO] Created: README.md
+True
+[18:09:34] [INFO] Created: nuxt.config.ts.old
+[18:09:34] [SUCCESS] Layer provisioned successfully at: D:\my_projects\web-apps\uuidv7-generator\layers\uuidv7-generator
+**********************
+PowerShell transcript end
+End time: 20251213180934
+**********************

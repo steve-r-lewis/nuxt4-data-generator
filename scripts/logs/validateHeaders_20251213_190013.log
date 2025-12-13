@@ -1,0 +1,28 @@
+**********************
+PowerShell transcript start
+Start time: 20251213190013
+Username: WINDOWS-AN9D8HS\steve
+RunAs User: WINDOWS-AN9D8HS\steve
+Configuration Name: 
+Machine: WINDOWS-AN9D8HS (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -File D:\my_projects\web-apps\uuidv7-generator\scripts\powershell\validateScriptHeaders.ps1
+Process ID: 10680
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Logging enabled: D:\my_projects\web-apps\uuidv7-generator\scripts\logs\validateHeaders_20251213_190013.log
+[19:00:13] [INFO] Starting Script Header Validation...
+[19:00:13] [SUCCESS] Validation Complete.
+
+All files checked. No issues found.
+**********************
+PowerShell transcript end
+End time: 20251213190013
+**********************

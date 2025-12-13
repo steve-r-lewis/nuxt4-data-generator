@@ -1,0 +1,65 @@
+**********************
+PowerShell transcript start
+Start time: 20251213185458
+Username: WINDOWS-AN9D8HS\steve
+RunAs User: WINDOWS-AN9D8HS\steve
+Configuration Name: 
+Machine: WINDOWS-AN9D8HS (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -File D:\my_projects\web-apps\uuidv7-generator\scripts\powershell\validateScriptHeaders.ps1
+Process ID: 31028
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Logging enabled: D:\my_projects\web-apps\uuidv7-generator\scripts\logs\validateHeaders_20251213_185458.log
+[18:54:58] [INFO] Starting Script Header Validation...
+True
+[18:54:58] [INFO] Updated ~/nuxt.config.ts
+True
+[18:54:58] [INFO] Updated ~/vitest.config.ts
+True
+[18:54:58] [INFO] Updated ~/app/app.config.ts
+True
+[18:54:58] [INFO] Updated ~/app/app.vue
+True
+[18:54:58] [INFO] Updated ~/app/error.vue
+True
+[18:54:58] [INFO] Updated ~/app/layouts/default.vue
+True
+[18:54:58] [INFO] Updated ~/app/pages/index.vue
+True
+[18:54:58] [INFO] Updated ~/layers/theme-manager/nuxt.config.ts
+True
+[18:54:58] [INFO] Updated ~/layers/ui-library/nuxt.config.ts
+True
+[18:54:58] [INFO] Updated ~/layers/uuidv7-generator/nuxt.config.ts
+True
+[18:54:58] [INFO] Updated ~/scripts/typescript/run-script.ts
+[18:54:58] [SUCCESS] Validation Complete.
+
+Summary:
+
+File                                     Action  Details
+----                                     ------  -------
+~/nuxt.config.ts                         Updated Ver: V1.0.0
+~/vitest.config.ts                       Updated
+~/app/app.config.ts                      Updated
+~/app/app.vue                            Updated
+~/app/error.vue                          Updated
+~/app/layouts/default.vue                Updated Path, Author
+~/app/pages/index.vue                    Updated Path, Author
+~/layers/theme-manager/nuxt.config.ts    Updated Ver: V1.0.0
+~/layers/ui-library/nuxt.config.ts       Updated Ver: V1.0.0
+~/layers/uuidv7-generator/nuxt.config.ts Updated Ver: V1.0.0
+~/scripts/typescript/run-script.ts       Updated
+
+**********************
+PowerShell transcript end
+End time: 20251213185458
+**********************

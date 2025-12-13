@@ -1,0 +1,9 @@
+# =============================================
+# 1. Package Managers & Dependency Stores
+# =============================================
+
+# Git management
+**/.git
+
+# Node dependency trees (high churn, generated)
+**/node_modules/

@@ -1,0 +1,14 @@
+{
+    "name": "@monorepo/ui-library",
+    "version": "1.0.0",
+    "description": "A UI Library layer for Nuxt applications, providing reusable styling components.",
+    "private": true,
+    "type": "module",
+    "main": "nuxt.config.ts",
+    "exports": {
+        ".": {
+            "types": "./tsconfig.json",
+            "import": "./nuxt.config.ts.old"
+        }
+    }
+}

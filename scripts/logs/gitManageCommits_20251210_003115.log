@@ -1,0 +1,89 @@
+**********************
+PowerShell transcript start
+Start time: 20251210003115
+Username: WINDOWS-AN9D8HS\steve
+RunAs User: WINDOWS-AN9D8HS\steve
+Configuration Name: 
+Machine: WINDOWS-AN9D8HS (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -File D:\my_projects\web-apps\nuxt4-monorepo-base-app\scripts\powershell\gitManageCommits.ps1
+Process ID: 10300
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Logging enabled: D:\my_projects\web-apps\nuxt4-monorepo-base-app\scripts\logs\gitManageCommits_20251210_003115.log
+[00:31:15] [DEBUG] LLM Provider set from Environment: ollama
+[00:31:15] [INFO] Scanning repositories...
+[00:31:16] [INFO] [nuxt4-monorepo-base-app] Changes detected.
+ -> Analyzing changes with AI...
+[00:31:18] [DEBUG] Invoking Ollama (llama3:8b) at http://localhost:11434/api/generate...
+=========================================
+   Repo: nuxt4-monorepo-base-app | Proposed: 'feat: LLM provider set from Environment and scanning for modified files.'
+=========================================
+ Use UP/DOWN to navigate, SPACE to select, ENTER to confirm
+
+> Accept & Push
+  Enter Custom Message
+  Skip
+
+[00:31:32] [SUCCESS] [nuxt4-monorepo-base-app] Pushed: feat: LLM provider set from Environment and scanning for modified files.
+[00:31:32] [DEBUG] [accounting] Clean.
+[00:31:32] [DEBUG] [api-services] Clean.
+[00:31:33] [DEBUG] [audit] Clean.
+[00:31:33] [DEBUG] [authentication] Clean.
+[00:31:33] [DEBUG] [authorisation] Clean.
+[00:31:33] [DEBUG] [billing-manager] Clean.
+[00:31:33] [DEBUG] [booking] Clean.
+[00:31:33] [DEBUG] [caching] Clean.
+[00:31:33] [DEBUG] [club-manager] Clean.
+[00:31:33] [DEBUG] [committee-manager] Clean.
+[00:31:33] [DEBUG] [company-console] Clean.
+[00:31:33] [DEBUG] [company-manager] Clean.
+[00:31:33] [DEBUG] [cookies-service] Clean.
+[00:31:33] [DEBUG] [course-manager] Clean.
+[00:31:33] [DEBUG] [department-manager] Clean.
+[00:31:33] [DEBUG] [enrolments-manager] Clean.
+[00:31:33] [DEBUG] [event-manager] Clean.
+[00:31:33] [DEBUG] [group-manager] Clean.
+[00:31:33] [DEBUG] [integrations] Clean.
+[00:31:33] [DEBUG] [inventory-manager] Clean.
+[00:31:33] [DEBUG] [invoice-manager] Clean.
+[00:31:33] [DEBUG] [location-manager] Clean.
+[00:31:33] [DEBUG] [logging] Clean.
+[00:31:33] [DEBUG] [logistics-manager] Clean.
+[00:31:33] [DEBUG] [marketplace] Clean.
+[00:31:33] [DEBUG] [membership-manager] Clean.
+[00:31:33] [DEBUG] [monitoring] Clean.
+[00:31:33] [DEBUG] [office-manager] Clean.
+[00:31:33] [DEBUG] [order-manager] Clean.
+[00:31:33] [DEBUG] [organisation-manager] Clean.
+[00:31:33] [DEBUG] [process-manager] Clean.
+[00:31:33] [DEBUG] [project-manager] Clean.
+[00:31:33] [DEBUG] [reports-manager] Clean.
+[00:31:33] [DEBUG] [schedule-manager] Clean.
+[00:31:33] [DEBUG] [session-manager] Clean.
+[00:31:33] [DEBUG] [shop-manager] Clean.
+[00:31:33] [DEBUG] [subscription-manager] Clean.
+[00:31:33] [DEBUG] [task-manager] Clean.
+[00:31:33] [DEBUG] [tenancy-manager] Clean.
+[00:31:33] [DEBUG] [theme-manager] Clean.
+[00:31:33] [DEBUG] [todo-manager] Clean.
+[00:31:33] [DEBUG] [training-manager] Clean.
+[00:31:33] [DEBUG] [ui-library] Clean.
+[00:31:33] [DEBUG] [user-manager] Clean.
+[00:31:33] [DEBUG] [warehouse-manager] Clean.
+[00:31:34] [DEBUG] [workflow-manager] Clean.
+[00:31:34] [DEBUG] [workshop-manager] Clean.
+[00:31:34] [SUCCESS] Sync complete.
+PS>$global:?
+True
+**********************
+PowerShell transcript end
+End time: 20251210003134
+**********************

@@ -1,0 +1,43 @@
+**********************
+PowerShell transcript start
+Start time: 20251213181731
+Username: WINDOWS-AN9D8HS\steve
+RunAs User: WINDOWS-AN9D8HS\steve
+Configuration Name: 
+Machine: WINDOWS-AN9D8HS (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -File D:\my_projects\web-apps\uuidv7-generator\scripts\powershell\nuxtCreateLayer.ps1
+Process ID: 31572
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Logging enabled: D:\my_projects\web-apps\uuidv7-generator\scripts\logs\createLayer_20251213_181731.log
+[18:17:31] [DEBUG] LLM Provider set from Environment: ollama
+@monorepo Layer Provisioner
+===========================
+[18:18:04] [INFO] Contacting AI for layer descriptions...
+[18:18:04] [DEBUG] Invoking Ollama (llama3:8b) at http://localhost:11434/api/generate...
+[18:18:10] [INFO] Scaffolding layer 'theme-manager'...
+True
+[18:18:10] [INFO] Created: package.json
+True
+[18:18:10] [INFO] Created: tsconfig.json
+True
+[18:18:10] [INFO] Created: .gitignore
+True
+[18:18:10] [INFO] Created: LICENSE
+True
+[18:18:10] [INFO] Created: README.md
+True
+[18:18:10] [INFO] Created: nuxt.config.ts.old
+[18:18:10] [SUCCESS] Layer provisioned successfully at: D:\my_projects\web-apps\uuidv7-generator\layers\theme-manager
+**********************
+PowerShell transcript end
+End time: 20251213181810
+**********************

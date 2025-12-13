@@ -1,0 +1,82 @@
+{
+  "name": "uuidv7-generator",
+  "version": "1.0.0",
+  "description": "A Nuxt 4 monorepo to generate mock data for project development.  Using Nuxt Layers / Nitro / Vite",
+  "private": true,
+  "main": "nuxt.config.ts.old",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "monorepo",
+    "vue",
+    "nuxt",
+    "typescript",
+    "mock data generator"
+  ],
+  "packageManager": "pnpm@10.25.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steve-r-lewis/mock-data-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/steve-r-lewis/mock-data-generator/issues"
+  },
+  "authors": [
+    {
+      "name": "Steve R Lewis",
+      "email": "me@steve-lewis.uk",
+      "url": "https://www.steve-lewis.uk"
+    }
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "patreon.com/TheModuleFactory"
+  },
+  "scripts": {
+    "project:provision": "node ./scripts/typescript/run-script.ts provisionProject",
+    "git:repos": "node ./scripts/typescript/run-script.ts gitManageRepos",
+    "git:commits": "node ./scripts/typescript/run-script.ts gitManageCommits",
+    "nuxt:env": "node ./scripts/typescript/run-script.ts nuxtManager",
+    "nuxt:createLayer": "node ./scripts/typescript/run-script.ts nuxtCreateLayer",
+    "nuxt:getLayerDoc": "node ./scripts/typescript/run-script.ts nuxtExtractLayerDescriptions",
+    "validate:headers": "node ./scripts/typescript/run-script.ts validateScriptHeaders",
+    "version:auto": "node ./scripts/typescript/run-script.ts updateFileVersion",
+    "autoDoc": "node ./scripts/typescript/run-script.ts addCodeDocumentation",
+    "vitest:run": "vitest run",
+    "vitest:watch": "vitest",
+    "vitest:coverage": "vitest run --coverage",
+    "typecheck": "nuxt typecheck",
+    "typecheck:debug": "nuxt typecheck --debug",
+    "lint": "eslint . --ext .vue,.js,.jsx,.ts,.tsx",
+    "lint:debug": "eslint . --debug --ext .vue,.js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .vue,.js,.jsx,.ts,.tsx --fix",
+    "app:postinstall": "nuxt prepare",
+    "app:preview": "nuxt preview",
+    "app:dev": "nuxt dev --force",
+    "app:build": "nuxt build",
+    "app:generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^4.0.15",
+    "vue-tsc": "^3.1.8"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.80",
+    "@iconify-json/uil": "^1.2.3",
+    "@nuxt/icon": "^2.1.0",
+    "@pinia/nuxt": "^0.11.3",
+    "@tailwindcss/vite": "^4.1.18",
+    "jsonwebtoken": "^9.0.3",
+    "nuxt": "^4.2.2",
+    "pinia": "^3.0.4",
+    "tailwindcss": "^4.1.18",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.4"
+  }
+}

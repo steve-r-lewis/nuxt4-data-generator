@@ -1,0 +1,3 @@
+[submodule "layers/company-console"]
+	path = layers/company-console
+	url = " https://github.com/steve-r-lewis/nuxt4-layer-company-console.git"

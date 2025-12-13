@@ -1,0 +1,58 @@
+/**
+ * ================================================================================
+ *
+ * @project:    @monorepo/theme-manager
+ * @file:       ~/layers/theme-manager/assets/css/components/error-page.css
+ * @version:    1.0.0
+ * @createDate: 2025 Nov 12
+ * @createTime: 00:12
+ * @author:     Steve R Lewis
+ *
+ * ================================================================================
+ *
+ * @description:
+ * TODO: Create description here
+ *
+ * ================================================================================
+ *
+ * @notes: Revision History
+ *
+ * V1.0.0, 20251112-00:12
+ * Initial creation and release of error-page.css
+ *
+ * ================================================================================
+ */
+
+@layer components {
+  /**
+   * ============================================================================
+   * Error Page Components (For error.vue)
+   * ============================================================================
+   */
+  .error-page {
+    /* Full-screen layout, centered */
+    @apply min-h-screen flex flex-col items-center justify-center;
+
+    /* Uses the 'base' fill and text */
+    @apply bg-white text-black;
+    @apply p-6 text-center;
+  }
+
+  .error-code {
+    /* Uses the 'error' pen color for high visibility */
+    @apply text-8xl font-bold text-yellow;
+
+    /* Apply a theme-aware text shadow */
+    @apply text-shadow-red;
+  }
+
+  .error-message {
+    @apply mt-4 text-3xl font-semibold text-black;
+  }
+
+  .error-link {
+    /* We can re-use the .btn and .btn-primary classes */
+    @apply mt-12;
+  }
+}
+
