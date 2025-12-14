@@ -8,7 +8,7 @@
     "exports": {
         ".": {
             "types": "./tsconfig.json",
-            "import": "./nuxt.config.ts.old"
+            "import": "./nuxt.config.ts"
         }
     }
 }

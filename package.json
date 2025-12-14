@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Nuxt 4 monorepo to generate mock data for project development.  Using Nuxt Layers / Nitro / Vite",
   "private": true,
-  "main": "nuxt.config.ts.old",
+  "main": "nuxt.config.ts",
   "type": "module",
   "license": "MIT",
   "keywords": [
