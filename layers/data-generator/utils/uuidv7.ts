@@ -1,9 +1,9 @@
 /**
  * ================================================================================
  *
- * @project:    uuidv7-generator
- * @file:       ~/layers/uuidv7-generator/utils/uuidv7.ts
- * @version:    1.0.0
+ * @project:    @monorepo/data-generator
+ * @file:       ~/layers/data-generator/utils/uuidv7.ts
+ * @version:    V1.0.1
  * @createDate: 2025 Dec 13
  * @createTime: 23:12
  * @author:     Steve R Lewis
@@ -16,7 +16,10 @@
  * ================================================================================
  *
  * @notes: Revision History
- *
+ 
+ V1.0.1, 20251216-2137
+ Fixed null reference in user loop.
+*
  * V1.0.0, 20251213-23:12
  * Initial creation and release of uuidv7.ts
  *
@@ -109,3 +112,5 @@ export function generateUuidRange(
     .sort((a, b) => a.ts - b.ts)
     .map(r => r.id)
 }
+
+

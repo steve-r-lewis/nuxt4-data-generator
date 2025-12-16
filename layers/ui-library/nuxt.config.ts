@@ -3,7 +3,7 @@
  *
  * @project:    @monorepo/ui-library
  * @file:       ~/layers/ui-library/nuxt.config.ts
- * @version:    V1.0.0
+ * @version:    V1.0.1
  * @createDate: 2025 Dec 13
  * @createTime: 18:19
  * @author:     Steve R Lewis
@@ -21,7 +21,10 @@
  * ================================================================================
  *
  * @notes: Revision History
- *
+ 
+ V1.0.1, 20251216-2138
+ Fixed null reference in user loop.
+*
  * V1.0.0, 20251213-18:19
  * Initial creation and release of nuxt.config.ts
  *

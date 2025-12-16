@@ -26,9 +26,34 @@
 @theme inline {
   /**
    * ============================================================================
-   * generalStyles Components
+   * Material Design 3 Inspired Token Mapping
+   * Soft, Sophisticated Palette (Slate & Indigo)
    * ============================================================================
    */
-  --color-bg: theme(colors.slate.950);
-  --color-fg: theme(colors.slate.100);
+
+  /* Backgrounds */
+  --color-surface-lvl-0: theme(colors.slate.50);   /* App Background */
+  --color-surface-lvl-1: theme(colors.white);      /* Cards / Sheets */
+  --color-surface-lvl-2: theme(colors.slate.100);  /* Hovers / Inputs */
+
+  /* Content */
+  --color-on-surface: theme(colors.slate.800);     /* Primary Text */
+  --color-on-surface-variant: theme(colors.slate.500); /* Secondary Text */
+
+  /* Branding (Soft Indigo) */
+  --color-primary: theme(colors.indigo.500);
+  --color-on-primary: theme(colors.white);
+  --color-primary-container: theme(colors.indigo.50);
+  --color-on-primary-container: theme(colors.indigo.900);
+
+  /* Functional */
+  --color-outline: theme(colors.slate.200);
+  --color-outline-focus: theme(colors.indigo.400);
+}
+
+/* Base Body Application */
+body {
+  background-color: var(--color-surface-lvl-0);
+  color: var(--color-on-surface);
+  @apply antialiased selection:bg-indigo-100 selection:text-indigo-900;
 }

@@ -1,0 +1,96 @@
+/**
+ * ================================================================================
+ *
+ * @project:    nuxt4-monorepo-demo
+ * @file:       ~/.vitepress/theme/style.css
+ * @version:    1.0.0
+ * @createDate: 2025 Dec 14
+ * @createTime: 23:45
+ * @author:     Steve R Lewis
+ *
+ * ================================================================================
+ *
+ * @description:
+ * TODO: Create description here
+ *
+ * ================================================================================
+ *
+ * @notes: Revision History
+ *
+ * V1.0.0, 20251214-23:45
+ * Initial creation and release of style.css
+ *
+ * ================================================================================
+ */
+
+/* docs/.vitepress/theme/style.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Fira+Code&display=swap');
+
+:root {
+  /* Apply the fonts */
+  --vp-font-family-base: 'Inter', sans-serif;
+  --vp-font-family-mono: 'Fira Code', monospace;
+
+  /* Adjust headings to be heavier/bolder */
+  --vp-font-family-heading: 'Inter', sans-serif;
+
+  /* Brand Color: Primary (e.g., a nice Blue or your specific brand color) */
+  --vp-c-brand-1: #3b82f6; /* Blue-500 */
+  --vp-c-brand-2: #2563eb; /* Blue-600 */
+  --vp-c-brand-3: #1d4ed8; /* Blue-700 */
+
+  /* Background nuances */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #3b82f6 30%, #4f46e5);
+
+  /* Light mode code block background */
+  --vp-code-block-bg: #f6f8fa;
+
+  /* Customizing the 'Tip' (Green by default) to be your Brand Blue */
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-bg: var(--vp-c-brand-soft);
+
+  /* Customizing the 'Danger' (Red) to be a softer Coral */
+  --vp-c-danger-1: #f87171;
+  --vp-c-danger-bg: #fef2f2;
+
+  --vp-layout-max-width: 1440px; /* Width of the whole container */
+}
+
+.dark {
+  /* Dark mode code block background - slightly lighter than page bg */
+  --vp-code-block-bg: #1e1e2e;
+
+  /* Optional: Change the color of line numbers */
+  --vp-code-line-number-color: #5c6370;
+}
+
+/* Increase the width of the actual text content area */
+.VPDoc .container .content {
+  max-width: 900px; /* Default is often tighter */
+}
+
+/* Target the hero text */
+.VPHero .name {
+  background: linear-gradient(
+    -45deg,
+    #3b82f6,
+    #8b5cf6,
+    #ec4899,
+    #3b82f6
+  );
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 6s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

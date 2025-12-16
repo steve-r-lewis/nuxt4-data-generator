@@ -3,9 +3,9 @@
 /**
  * ================================================================================
  *
- * @project:    uuidv7-generator
+ * @project:    nuxt4-data-generator
  * @file:       ~/scripts/typescript/run-script.ts
- * @version:    V1.0.0
+ * @version:    V1.0.1
  * @createDate: 2025 Dec 05
  * @createTime: 22:17
  * @author:     Steve R Lewis
@@ -25,7 +25,10 @@
  * ================================================================================
  *
  * @notes: Revision History
- *
+ 
+ V1.0.1, 20251216-2138
+ Updated project name in run-script.ts.
+*
  * V1.0.0, 20251205-22:17
  * Initial creation and release of run-script.ts
  *
@@ -102,5 +105,7 @@ if (result.error) {
 }
 
 process.exit(result.status ?? 1);
+
+
 
 

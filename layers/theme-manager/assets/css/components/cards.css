@@ -1,11 +1,11 @@
 /**
  * ================================================================================
  *
- * @project:    data-generator
- * @file:       ~/layers/theme-manager/assets/css/components/components.css
+ * @project:    nuxt4-data-generator
+ * @file:       ~/layers/theme-manager/assets/css/components/cards.css
  * @version:    1.0.0
- * @createDate: 2025 Dec 13
- * @createTime: 18:43
+ * @createDate: 2025 Dec 16
+ * @createTime: 19:26
  * @author:     Steve R Lewis
  *
  * ================================================================================
@@ -17,15 +17,17 @@
  *
  * @notes: Revision History
  *
- * V1.0.0, 20251213-18:43
- * Initial creation and release of components.css
+ * V1.0.0, 20251216-19:26
+ * Initial creation and release of cards.css
  *
  * ================================================================================
  */
 
-@import './buttons.css';
-@import './inputs.css'; /* Added */
-@import './cards.css';  /* Added */
-@import './error-page.css';
-@import './generalStyles.css';
-
+@layer components {
+  .card {
+    background-color: var(--color-surface-lvl-1);
+    border: 1px solid var(--color-surface-lvl-1);
+    @apply rounded-3xl p-6 md:p-8;
+    @apply shadow-[0_8px_30px_rgb(0,0,0,0.04)];
+  }
+}

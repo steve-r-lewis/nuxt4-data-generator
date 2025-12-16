@@ -1,7 +1,7 @@
 {
-  "name": "uuidv7-generator",
+  "name": "nuxt4-data-generator",
   "version": "1.0.0",
-  "description": "A Nuxt 4 monorepo to generate mock data for project development.  Using Nuxt Layers / Nitro / Vite",
+  "description": "A Nuxt 4 monorepo using Nuxt Layers / Nitro / Vite to provide a series of tools for generating unique development and security data",
   "private": true,
   "main": "nuxt.config.ts",
   "type": "module",
@@ -11,7 +11,8 @@
     "vue",
     "nuxt",
     "typescript",
-    "mock data generator"
+    "mock data generator",
+    "demonstration application"
   ],
   "packageManager": "pnpm@10.25.0",
   "engines": {
@@ -20,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/steve-r-lewis/mock-data-generator.git"
+    "url": "https://github.com/steve-r-lewis/nuxt4-data-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/steve-r-lewis/mock-data-generator/issues"
+    "url": "https://github.com/steve-r-lewis/nuxt4-data-generator/issues"
   },
   "authors": [
     {
@@ -37,6 +38,9 @@
     "url": "patreon.com/TheModuleFactory"
   },
   "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
     "project:provision": "node ./scripts/typescript/run-script.ts provisionProject",
     "git:repos": "node ./scripts/typescript/run-script.ts gitManageRepos",
     "git:commits": "node ./scripts/typescript/run-script.ts gitManageCommits",
@@ -60,12 +64,6 @@
     "app:build": "nuxt build",
     "app:generate": "nuxt generate"
   },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^4.0.15",
-    "vue-tsc": "^3.1.8"
-  },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.80",
     "@iconify-json/uil": "^1.2.3",
@@ -78,5 +76,12 @@
     "tailwindcss": "^4.1.18",
     "vue": "^3.5.25",
     "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitepress": "2.0.0-alpha.15",
+    "vitest": "^4.0.15",
+    "vue-tsc": "^3.1.8"
   }
 }

@@ -22,37 +22,27 @@
  *
  * ================================================================================
  */
-
 @layer components {
-  /**
-   * ============================================================================
-   * Error Page Components (For error.vue)
-   * ============================================================================
-   */
   .error-page {
-    /* Full-screen layout, centered */
     @apply min-h-screen flex flex-col items-center justify-center;
-
-    /* Uses the 'base' fill and text */
-    @apply bg-white text-black;
+    background-color: var(--color-surface-lvl-0);
+    color: var(--color-on-surface);
     @apply p-6 text-center;
   }
 
   .error-code {
-    /* Uses the 'error' pen color for high visibility */
-    @apply text-8xl font-bold text-yellow;
-
-    /* Apply a theme-aware text shadow */
-    @apply text-shadow-red;
+    /* Fixed: Removed invalid 'text-yellow' and 'text-shadow-red' */
+    color: var(--color-primary);
+    @apply text-9xl font-black tracking-tighter;
+    @apply opacity-20 select-none;
   }
 
   .error-message {
-    @apply mt-4 text-3xl font-semibold text-black;
+    color: var(--color-on-surface);
+    @apply -mt-12 text-3xl font-bold z-10;
   }
 
   .error-link {
-    /* We can re-use the .btn and .btn-primary classes */
-    @apply mt-12;
+    @apply mt-8 z-10;
   }
 }
-

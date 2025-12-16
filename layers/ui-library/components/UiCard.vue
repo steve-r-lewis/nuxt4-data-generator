@@ -1,9 +1,9 @@
 /**
 * ================================================================================
 *
-* @project:    uuidv7-generator
+* @project:    @monorepo/ui-library
 * @file:       ~/layers/ui-library/components/UiCard.vue
-* @version:    1.0.0
+* @version:    V1.0.1
 * @createDate: 2025 Dec 14
 * @createTime: 01:05
 * @author:     Steve R Lewis
@@ -16,6 +16,9 @@
 * ================================================================================
 *
 * @notes: Revision History
+
+ V1.0.1, 20251216-2138
+ Updated card component template and style.
 *
 * V1.0.0, 20251214-01:05
 * Initial creation and release of UiCard.vue
@@ -24,7 +27,7 @@
 */
 
 <template>
-  <div class="rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm shadow-xl">
+  <div class="card">
     <slot />
   </div>
 </template>
@@ -39,3 +42,5 @@
 <style scoped>
 /* TODO: Add component-specific styles for LayoutDevelopment if utility classes are insufficient. */
 </style>
+
+

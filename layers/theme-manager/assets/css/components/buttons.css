@@ -24,32 +24,34 @@
  */
 
 @layer components {
-  /**
-   * ============================================================================
-   * Button Components
-   * ============================================================================
-   */
-
-  /* .btn is the BASE class for all buttons */
+  /* .btn Base */
   .btn {
-    @apply rounded-lg py-3 px-5 transition duration-150 ease-in-out;
-    @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+    @apply inline-flex items-center justify-center;
+    @apply px-6 py-2.5 rounded-full font-medium text-sm tracking-wide;
+    @apply transition-all duration-300 ease-out;
+    @apply cursor-pointer select-none gap-2;
+    @apply active:scale-[0.98];
   }
 
-  /* .btn-primary is the MODIFIER class */
+  /* .btn-primary (Filled) */
   .btn-primary {
-    /* These are ONLY the primary-specific styles. */
-    @apply bg-white text-black;
-    @apply border border-yello-600;
-    @apply shadow-lg shadow-blue-500/50;
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    @apply shadow-md shadow-indigo-500/20 border-transparent; /* Fixed typo here */
 
-    /* States */
-    @apply hover:bg-slate-500 hover:border-red-400;
-    @apply hover:bg-amber-400 hover:border-red-600;
-    @apply active:bg-white active:border-red;
-    @apply disabled:bg-grey-200 disabled:text-white;
+    /* Hover State */
+    &:hover {
+      @apply shadow-lg shadow-indigo-500/30 -translate-y-0.5;
+      background-color: theme(colors.indigo.600);
+    }
 
-    /* Focus Ring */
-    @apply focus:ring-grey-300;
+    /* Focus State */
+    &:focus-visible {
+      @apply outline-none ring-2 ring-offset-2 ring-indigo-500;
+    }
+
+    &:disabled {
+      @apply bg-slate-200 text-slate-400 shadow-none cursor-not-allowed translate-y-0;
+    }
   }
 }

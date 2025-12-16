@@ -1,9 +1,9 @@
 /**
 * ================================================================================
 *
-* @project:    uuidv7-generator
+* @project:    nuxt4-data-generator
 * @file:       ~/app/app.vue
-* @version:    V1.0.0
+* @version:    V1.1.0
 * @createDate: 2025 Oct 15
 * @createTime: 23:57
 * @author:     Steve R Lewis
@@ -16,6 +16,9 @@
 * ================================================================================
 *
 * @notes: Revision History
+
+ V1.1.0, 20251216-2137
+ Updated project name in app.vue file.
 *
 * V1.0.0, 20251015-23:57
 * Initial creation and release of app.vue
@@ -46,6 +49,8 @@ useHead({
 <style scoped>
 /* TODO: Add component-specific styles for LayoutDevelopment if utility classes are insufficient. */
 </style>
+
+
 
 
 

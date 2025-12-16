@@ -1,9 +1,9 @@
 /**
 * ================================================================================
 *
-* @project:    uuidv7-generator
+* @project:    @monorepo/ui-library
 * @file:       ~/layers/ui-library/components/UiButton.vue
-* @version:    1.0.0
+* @version:    V1.0.1
 * @createDate: 2025 Dec 14
 * @createTime: 01:11
 * @author:     Steve R Lewis
@@ -16,6 +16,9 @@
 * ================================================================================
 *
 * @notes: Revision History
+
+ V1.0.1, 20251216-2137
+ Updated project name in UiButton.vue to @monorepo/ui-library.
 *
 * V1.0.0, 20251214-01:11
 * Initial creation and release of UiButton.vue
@@ -24,10 +27,11 @@
 */
 
 <template>
-  <button class="btn btn-primary w-full sm:w-auto cursor-pointer flex justify-center items-center gap-2">
+  <button class="btn btn-primary w-full sm:w-auto">
     <slot />
   </button>
 </template>
+
 
 <script setup lang="ts">
 /**
@@ -39,3 +43,5 @@
 <style scoped>
 /* TODO: Add component-specific styles for LayoutDevelopment if utility classes are insufficient. */
 </style>
+
+

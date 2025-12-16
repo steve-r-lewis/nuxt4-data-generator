@@ -1,7 +1,7 @@
 {
-  "name": "@monorepo/ui-library",
+  "name": "@monorepo/data-generator",
   "version": "1.0.0",
-  "description": "Provides shared UI components, composables, and utilities. Integrates with theme-manager for consistent theming across the application.",
+  "description": "UUID-V7 Generator for Nuxt Monorepo",
   "private": true,
   "type": "module",
   "main": "nuxt.config.ts",

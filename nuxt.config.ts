@@ -1,9 +1,9 @@
 /**
  * ================================================================================
  *
- * @project:    uuidv7-generator
+ * @project:    nuxt4-data-generator
  * @file:       ~/nuxt.config.ts
- * @version:    V1.0.0
+ * @version:    V1.1.0
  * @createDate: 2025 Dec 13
  * @createTime: 17:27
  * @author:     Steve R Lewis
@@ -19,7 +19,10 @@
  * ================================================================================
  *
  * @notes: Revision History
- *
+ 
+ V1.1.0, 20251216-2138
+ Updated project name in nuxt.config.ts.
+*
  * V1.0.0, 20251213-17:27
  * Initial creation and release of nuxt.config.ts
  *
@@ -40,7 +43,7 @@ export default defineNuxtConfig({
    */
   extends: [
     "@monorepo/ui-library",
-    "@monorepo/uuidv7-generator"
+    "@monorepo/data-generator"
   ],
 
   /**
@@ -190,4 +193,5 @@ export default defineNuxtConfig({
     },
   }
 });
+
 

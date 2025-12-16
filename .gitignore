@@ -37,7 +37,7 @@
 # Node dependency trees (high churn, generated)
 **/node_modules/
 
-# pnpm store / virtual links
+# pnpm stores / virtual links
 **/.pnpm-store/
 **/.pnp
 **/.pnp.*
@@ -150,7 +150,7 @@
 
 # Specific file exclusions
 # Temporary exclude to ensure that private data does not pollute the Git repository[cite: 16].
-nuxt.config.ts.old
+nuxt.config.ts
 
 # ---
 
@@ -162,6 +162,14 @@ nuxt.config.ts.old
 **/.vitest/
 **/vitest.*.json
 coverage/                # Coverage output (Vitest, Jest, etc.)
+
+
+# =============================================
+# 7. Vitepress documentation server
+# =============================================
+docs/.vitepress/dist
+docs/.vitepress/cache
+
 
 # Local development playgrounds / scratch apps
 **/playground/dist/
@@ -183,7 +191,7 @@ powershell/output/
 # ---
 
 # =============================================
-# 7. Backend / Hosting Providers
+# 8. Backend / Hosting Providers
 # =============================================
 
 # Firebase (functions, emulators, CLI)
@@ -208,7 +216,7 @@ powershell/output/
 # ---
 
 # =============================================
-# 8. IDE / Editor Project Metadata
+# 9. IDE / Editor Project Metadata
 # =============================================
 
 # JetBrains IDEs (WebStorm/IntelliJ/etc.)
@@ -228,7 +236,7 @@ qodana.yaml                   # JetBrains Qodana CI config (ignore local)
 # ---
 
 # =============================================
-# 9. TypeScript, Build Info & Transpiled Outputs
+# 10. TypeScript, Build Info & Transpiled Outputs
 # =============================================
 
 **/out-tsc/                  # tsc output (Angular-style or tooling builds)
@@ -237,7 +245,7 @@ qodana.yaml                   # JetBrains Qodana CI config (ignore local)
 # ---
 
 # =============================================
-# 10. Project-Specific Runtime & Dev Data
+# 11. Project-Specific Runtime & Dev Data
 # =============================================
 
 # Generated data/datasets, exported API pulls, etc.
@@ -246,7 +254,7 @@ qodana.yaml                   # JetBrains Qodana CI config (ignore local)
 **/data/
 **/development/              # Local development scratch trees
 **/sandbox*/                 # Local scratch (dup with Testing block ok for safety)
-# **/backend-mock-data-store/  # Local backend data mockup.
+# **/backend-mock-data-stores/  # Local backend data mockup.
 
 # ============================================================================
 # End of File
